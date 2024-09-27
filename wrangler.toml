@@ -16,5 +16,5 @@ output_dir = "build"
 [site]
 bucket = "./build"
 
-# Correct the pages_build_output_dir by making it a string
+# The correct format: pages_build_output_dir as a string, not an object
 pages_build_output_dir = "build"
