@@ -7,10 +7,8 @@ command = "npm run build"
 # Directory where your built files are located
 [build]
 upload = { dir = "build" }
+pages_build_output_dir = "build"
 
 # Directory where your built files will be served from
 [site]
 bucket = "./build"
-
-# Build output directory for Pages
-pages_build_output_dir = "build"
