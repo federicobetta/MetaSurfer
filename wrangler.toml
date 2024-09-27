@@ -16,6 +16,6 @@ output_dir = "build"
 [site]
 bucket = "./build"
 
-# Specify the build output directory for Pages
-[build.upload]
-format = "service-worker"
+# Make sure this section is included, as it's required for Pages
+[pages_build_output_dir]
+value = "build"
