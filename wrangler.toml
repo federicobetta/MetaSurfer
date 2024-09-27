@@ -1,0 +1,15 @@
+name = "meta-surfer"
+type = "webpack"
+account_id = "53bfef81e286b5e46c80d6622196d1eb"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2024-09-27"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
+
+[build]
+command = "npm run build"
+output_dir = "build"
