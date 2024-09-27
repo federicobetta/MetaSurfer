@@ -1,15 +1,25 @@
+# The name of your project
 name = "meta-surfer"
-type = "webpack"
-account_id = "53bfef81e286b5e46c80d6622196d1eb"
-workers_dev = true
-route = ""
-zone_id = ""
-compatibility_date = "2024-09-27"
 
+# The type of project (this should be "webpack" for a React app)
+type = "webpack"
+
+# The build command for your project
+command = "npm run build"
+
+# The directory where your built files are located
+[build]
+upload.dir = "build"
+output_dir = "build"
+
+# The directory where your built files will be served from
 [site]
 bucket = "./build"
-entry-point = "workers-site"
 
-[build]
-command = "npm run build"
-output_dir = "build"
+# Specify the build output directory for Pages
+[build.upload]
+format = "service-worker"
+
+# This is the key property that Cloudflare Pages is looking for
+[pages_build_output_dir]
+value = "build"
