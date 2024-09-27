@@ -1,20 +1,8 @@
-# The name of your project
 name = "meta-surfer"
-
-# The type of project (this should be "webpack" for a React app)
 type = "webpack"
-
-# The build command for your project
 command = "npm run build"
-
-# The directory where your built files are located
 [build]
-upload.dir = "build"
-output_dir = "build"
-
-# The directory where your built files will be served from
+upload = { dir = "build" }
 [site]
 bucket = "./build"
-
-# The correct format: pages_build_output_dir as a string, not an object
 pages_build_output_dir = "build"
