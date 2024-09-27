@@ -19,7 +19,3 @@ bucket = "./build"
 # Specify the build output directory for Pages
 [build.upload]
 format = "service-worker"
-
-# This is the key property that Cloudflare Pages is looking for
-[pages_build_output_dir]
-value = "build"
