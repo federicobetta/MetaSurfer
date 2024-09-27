@@ -16,6 +16,5 @@ output_dir = "build"
 [site]
 bucket = "./build"
 
-# Make sure this section is included, as it's required for Pages
-[pages_build_output_dir]
-value = "build"
+# Correct the pages_build_output_dir by making it a string
+pages_build_output_dir = "build"
