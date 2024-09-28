@@ -11,7 +11,10 @@ const API_KEY = 'AIzaSyArqu0qB8jyJBjgjkPFCxOPD4IIcNDrzAg';
 const API_ENDPOINT = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent';
 
 const CATEGORY_PROMPTS = {
-  // ... (category prompts remain the same)
+  film: "Analyze the film or TV series '{title}' by {author}. Include a brief synopsis, discuss its themes, cinematography, and cultural impact. Evaluate its strengths and weaknesses, and explain its significance in the context of its genre and time period.",
+  music: "Analyze the musical work '{title}' by {author}. Discuss its genre, musical style, lyrical themes (if applicable), and production. Evaluate its cultural impact, critical reception, and place in the artist's discography. Consider its influence on other artists or the genre as a whole.",
+  literature: "Analyze the novel or short story collection '{title}' by {author}. Provide a brief plot summary, discuss major themes, character development, and writing style. Evaluate its literary merits, cultural significance, and impact on literature. Consider how it fits into the author's body of work and its genre.",
+  visual_art: "Analyze the visual artwork '{title}' by {author}. Describe its medium, style, and composition. Discuss the artist's techniques, the artwork's themes or subject matter, and its historical or cultural context. Evaluate its significance in the artist's career and its impact on the art world."
 };
 
 function App() {
