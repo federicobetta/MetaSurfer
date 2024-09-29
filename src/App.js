@@ -141,7 +141,7 @@ function App() {
         )}
         <footer>
           <p>API Limits: 15 RPM, 32,000 TPM, 1,500 RPD</p>
-          <p>Meta Surfer can make mistakes. Please double-check responses.</p>
+          <p>Meta Surfer is an AI-powered app that can make mistakes. Please double-check the responses.</p>
         </footer>
       </div>
     </ErrorBoundary>
